@@ -1,0 +1,24 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/RISCV_PRACTICE/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/CPU_Top_tb.v,1785658356,verilog,,,,CPU_Top_tb,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/tb_EX_stage.v,1784036615,verilog,,,,tb_EX_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/tb_ID_stage.v,1784036135,verilog,,,,tb_ID_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/tb_MEM_stage.v,1782965559,verilog,,,,tb_MEM_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/tb_WB_stage.v,1782966862,verilog,,,,tb_WB_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/tb_system_IF.v,1784035458,verilog,,,,tb_system_IF,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/CPU_Top.v,1785556030,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/EX_stage.v,,CPU_Top,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/EX_stage.v,1785555742,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/Hazard_Unit.v,,EX_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/Hazard_Unit.v,1784024116,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/ID_stage.v,,Hazard_Unit,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/ID_stage.v,1785555704,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/IF_ID.v,,ID_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/IF_ID.v,1784021495,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/IF_stage.v,,pipe_reg_IF_ID,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/IF_stage.v,1783609877,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/MEM_stage.v,,IF_stage;inst_mem_mock,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/MEM_stage.v,1782965516,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/Reg_File.v,,MEM_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/Reg_File.v,1782903304,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/WB_stage.v,,Reg_File,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/WB_stage.v,1782966846,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_EX_MEM.v,,WB_stage,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/mac_unit.v,1783917367,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_EX_MEM.v,,mac_unit,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_EX_MEM.v,1782962160,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_ID_EX.v,,pipe_reg_EX_MEM,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_ID_EX.v,1784021531,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_MEM_WB.v,,pipe_reg_ID_EX,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/RISCV_PRACTICE/project_2/project_2.srcs/sources_1/new/pipe_reg_MEM_WB.v,1782969239,verilog,,C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/CPU_Top_tb.v,,pipe_reg_MEM_WB,,,D:/VIVADO/2025.2/Vivado/data/rsb/busdef,,,,,

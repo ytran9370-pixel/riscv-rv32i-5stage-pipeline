@@ -1,0 +1,234 @@
+Time resolution is 1 ps
+==========================================================================
+   BẮT ĐẦU MÔ PHỎNG HỆ THỐNG KIẾN TRÚC PIPELINE RISC-V 5 TẦNG
+==========================================================================
+[TB INFO] Hệ thống đã nhả RESET. CPU bắt đầu thực thi lệnh...
+--------------------------------------------------------------------------
+Time: 30 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000000 | Inst_Fetch = 0x00a00093
+[ID Stage]  PC_Decode = 0x00000000 | Inst_Decode = 0x00000013 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000000 | Op_A = 0x00000000 | Op_B = 0x00000000 | ALU_Result_E = 0x00000000 | RD_Addr_E =  0
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 50 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000004 | Inst_Fetch = 0x00108133
+[ID Stage]  PC_Decode = 0x00000000 | Inst_Decode = 0x00a00093 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000000 | Op_A = 0x00000000 | Op_B = 0x00000000 | ALU_Result_E = 0x00000000 | RD_Addr_E =  0
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 70 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000008 | Inst_Fetch = 0x00f00193
+[ID Stage]  PC_Decode = 0x00000004 | Inst_Decode = 0x00108133 | RS1_Addr =  1, RS2_Addr =  1
+[EX Stage]  PC_Exec = 0x00000000 | Op_A = 0x00000000 | Op_B = 0x0000000a | ALU_Result_E = 0x0000000a | RD_Addr_E =  1
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 90 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000000c | Inst_Fetch = 0x06300213
+[ID Stage]  PC_Decode = 0x00000008 | Inst_Decode = 0x00f00193 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000004 | Op_A = 0x0000000a | Op_B = 0x0000000a | ALU_Result_E = 0x00000014 | RD_Addr_E =  2
+[MEM Stage] ALU_Result_M = 0x0000000a | RD_Addr_M =  1
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 10 | Fwd_RS2_E = 10 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 110 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000010 | Inst_Fetch = 0x003182b3
+[ID Stage]  PC_Decode = 0x0000000c | Inst_Decode = 0x06300213 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000008 | Op_A = 0x00000000 | Op_B = 0x0000000f | ALU_Result_E = 0x0000000f | RD_Addr_E =  3
+[MEM Stage] ALU_Result_M = 0x00000014 | RD_Addr_M =  2
+[WB Stage]  Write_Data_W = 0x0000000a | RD_Addr_W =  1 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 130 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000014 | Inst_Fetch = 0x00300313
+[ID Stage]  PC_Decode = 0x00000010 | Inst_Decode = 0x003182b3 | RS1_Addr =  3, RS2_Addr =  3
+[EX Stage]  PC_Exec = 0x0000000c | Op_A = 0x00000000 | Op_B = 0x00000063 | ALU_Result_E = 0x00000063 | RD_Addr_E =  4
+[MEM Stage] ALU_Result_M = 0x0000000f | RD_Addr_M =  3
+[WB Stage]  Write_Data_W = 0x00000014 | RD_Addr_W =  2 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 150 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000018 | Inst_Fetch = 0x00100393
+[ID Stage]  PC_Decode = 0x00000014 | Inst_Decode = 0x00300313 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000010 | Op_A = 0x0000000f | Op_B = 0x0000000f | ALU_Result_E = 0x0000001e | RD_Addr_E =  5
+[MEM Stage] ALU_Result_M = 0x00000063 | RD_Addr_M =  4
+[WB Stage]  Write_Data_W = 0x0000000f | RD_Addr_W =  3 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 01 | Fwd_RS2_E = 01 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 170 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000001c | Inst_Fetch = 0x00100413
+[ID Stage]  PC_Decode = 0x00000018 | Inst_Decode = 0x00100393 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000014 | Op_A = 0x00000000 | Op_B = 0x00000003 | ALU_Result_E = 0x00000003 | RD_Addr_E =  6
+[MEM Stage] ALU_Result_M = 0x0000001e | RD_Addr_M =  5
+[WB Stage]  Write_Data_W = 0x00000063 | RD_Addr_W =  4 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 190 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000020 | Inst_Fetch = 0x006304b3
+[ID Stage]  PC_Decode = 0x0000001c | Inst_Decode = 0x00100413 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000018 | Op_A = 0x00000000 | Op_B = 0x00000001 | ALU_Result_E = 0x00000001 | RD_Addr_E =  7
+[MEM Stage] ALU_Result_M = 0x00000003 | RD_Addr_M =  6
+[WB Stage]  Write_Data_W = 0x0000001e | RD_Addr_W =  5 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 210 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000024 | Inst_Fetch = 0x03200513
+[ID Stage]  PC_Decode = 0x00000020 | Inst_Decode = 0x006304b3 | RS1_Addr =  6, RS2_Addr =  6
+[EX Stage]  PC_Exec = 0x0000001c | Op_A = 0x00000000 | Op_B = 0x00000001 | ALU_Result_E = 0x00000001 | RD_Addr_E =  8
+[MEM Stage] ALU_Result_M = 0x00000001 | RD_Addr_M =  7
+[WB Stage]  Write_Data_W = 0x00000003 | RD_Addr_W =  6 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 11
+--------------------------------------------------------------------------
+Time: 230 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000028 | Inst_Fetch = 0x02a02623
+[ID Stage]  PC_Decode = 0x00000024 | Inst_Decode = 0x03200513 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000020 | Op_A = 0x00000003 | Op_B = 0x00000003 | ALU_Result_E = 0x00000006 | RD_Addr_E =  9
+[MEM Stage] ALU_Result_M = 0x00000001 | RD_Addr_M =  8
+[WB Stage]  Write_Data_W = 0x00000001 | RD_Addr_W =  7 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 250 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000002c | Inst_Fetch = 0x02c02583
+[ID Stage]  PC_Decode = 0x00000028 | Inst_Decode = 0x02a02623 | RS1_Addr =  0, RS2_Addr = 10
+[EX Stage]  PC_Exec = 0x00000024 | Op_A = 0x00000000 | Op_B = 0x00000032 | ALU_Result_E = 0x00000032 | RD_Addr_E = 10
+[MEM Stage] ALU_Result_M = 0x00000006 | RD_Addr_M =  9
+[WB Stage]  Write_Data_W = 0x00000001 | RD_Addr_W =  8 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 270 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000030 | Inst_Fetch = 0x00058633
+[ID Stage]  PC_Decode = 0x0000002c | Inst_Decode = 0x02c02583 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000028 | Op_A = 0x00000000 | Op_B = 0x0000002c | ALU_Result_E = 0x0000002c | RD_Addr_E = 12
+[MEM Stage] ALU_Result_M = 0x00000032 | RD_Addr_M = 10
+[WB Stage]  Write_Data_W = 0x00000006 | RD_Addr_W =  9 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 10 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 290 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000034 | Inst_Fetch = 0x02802683
+[ID Stage]  PC_Decode = 0x00000030 | Inst_Decode = 0x00058633 | RS1_Addr = 11, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x0000002c | Op_A = 0x00000000 | Op_B = 0x0000002c | ALU_Result_E = 0x0000002c | RD_Addr_E = 11
+[MEM Stage] ALU_Result_M = 0x0000002c | RD_Addr_M = 12
+[WB Stage]  Write_Data_W = 0x00000032 | RD_Addr_W = 10 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 1 | Stall_IF_ID = 1 | Flush_ID_E = 1
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 310 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000034 | Inst_Fetch = 0x02802683
+[ID Stage]  PC_Decode = 0x00000030 | Inst_Decode = 0x00058633 | RS1_Addr = 11, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000030 | Op_A = 0x00000000 | Op_B = 0x00000000 | ALU_Result_E = 0x00000000 | RD_Addr_E =  0
+[MEM Stage] ALU_Result_M = 0x0000002c | RD_Addr_M = 11
+[WB Stage]  Write_Data_W = 0x0000002c | RD_Addr_W = 12 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 330 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000038 | Inst_Fetch = 0x00068733
+[ID Stage]  PC_Decode = 0x00000034 | Inst_Decode = 0x02802683 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000030 | Op_A = 0x00000032 | Op_B = 0x00000000 | ALU_Result_E = 0x00000032 | RD_Addr_E = 12
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x00000032 | RD_Addr_W = 11 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 01 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 350 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000003c | Inst_Fetch = 0x02802783
+[ID Stage]  PC_Decode = 0x00000038 | Inst_Decode = 0x00068733 | RS1_Addr = 13, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000034 | Op_A = 0x00000000 | Op_B = 0x00000028 | ALU_Result_E = 0x00000028 | RD_Addr_E = 13
+[MEM Stage] ALU_Result_M = 0x00000032 | RD_Addr_M = 12
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 1 | Stall_IF_ID = 1 | Flush_ID_E = 1
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 370 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000003c | Inst_Fetch = 0x02802783
+[ID Stage]  PC_Decode = 0x00000038 | Inst_Decode = 0x00068733 | RS1_Addr = 13, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000038 | Op_A = 0x00000000 | Op_B = 0x00000000 | ALU_Result_E = 0x00000000 | RD_Addr_E =  0
+[MEM Stage] ALU_Result_M = 0x00000028 | RD_Addr_M = 13
+[WB Stage]  Write_Data_W = 0x00000032 | RD_Addr_W = 12 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 390 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000040 | Inst_Fetch = 0x00f00833
+[ID Stage]  PC_Decode = 0x0000003c | Inst_Decode = 0x02802783 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000038 | Op_A = 0x55556666 | Op_B = 0x00000000 | ALU_Result_E = 0x55556666 | RD_Addr_E = 14
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x55556666 | RD_Addr_W = 13 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 01 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 410 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000044 | Inst_Fetch = 0x02802883
+[ID Stage]  PC_Decode = 0x00000040 | Inst_Decode = 0x00f00833 | RS1_Addr =  0, RS2_Addr = 15
+[EX Stage]  PC_Exec = 0x0000003c | Op_A = 0x00000000 | Op_B = 0x00000028 | ALU_Result_E = 0x00000028 | RD_Addr_E = 15
+[MEM Stage] ALU_Result_M = 0x55556666 | RD_Addr_M = 14
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 1 | Stall_IF_ID = 1 | Flush_ID_E = 1
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 430 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000044 | Inst_Fetch = 0x02802883
+[ID Stage]  PC_Decode = 0x00000040 | Inst_Decode = 0x00f00833 | RS1_Addr =  0, RS2_Addr = 15
+[EX Stage]  PC_Exec = 0x00000040 | Op_A = 0x00000000 | Op_B = 0x00000000 | ALU_Result_E = 0x00000000 | RD_Addr_E =  0
+[MEM Stage] ALU_Result_M = 0x00000028 | RD_Addr_M = 15
+[WB Stage]  Write_Data_W = 0x55556666 | RD_Addr_W = 14 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 450 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000048 | Inst_Fetch = 0x00088933
+[ID Stage]  PC_Decode = 0x00000044 | Inst_Decode = 0x02802883 | RS1_Addr =  0, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000040 | Op_A = 0x00000000 | Op_B = 0x55556666 | ALU_Result_E = 0x55556666 | RD_Addr_E = 16
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x55556666 | RD_Addr_W = 15 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 01 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 470 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000004c | Inst_Fetch = 0x000889b3
+[ID Stage]  PC_Decode = 0x00000048 | Inst_Decode = 0x00088933 | RS1_Addr = 17, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000044 | Op_A = 0x00000000 | Op_B = 0x00000028 | ALU_Result_E = 0x00000028 | RD_Addr_E = 17
+[MEM Stage] ALU_Result_M = 0x55556666 | RD_Addr_M = 16
+[WB Stage]  Write_Data_W = 0x00000000 | RD_Addr_W =  0 | RegWrite_W = 0
+[HAZARD]    Stall_PC = 1 | Stall_IF_ID = 1 | Flush_ID_E = 1
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 490 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x0000004c | Inst_Fetch = 0x000889b3
+[ID Stage]  PC_Decode = 0x00000048 | Inst_Decode = 0x00088933 | RS1_Addr = 17, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000048 | Op_A = 0x00000000 | Op_B = 0x00000000 | ALU_Result_E = 0x00000000 | RD_Addr_E =  0
+[MEM Stage] ALU_Result_M = 0x00000028 | RD_Addr_M = 17
+[WB Stage]  Write_Data_W = 0x55556666 | RD_Addr_W = 16 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 00 | Fwd_RS2_E = 00 | Fwd_Decode_D = 00
+--------------------------------------------------------------------------
+Time: 510 ns | CLK Posedge
+[IF Stage]  PC_Fetch = 0x00000050 | Inst_Fetch = 0x02802003
+[ID Stage]  PC_Decode = 0x0000004c | Inst_Decode = 0x000889b3 | RS1_Addr = 17, RS2_Addr =  0
+[EX Stage]  PC_Exec = 0x00000048 | Op_A = 0x55556666 | Op_B = 0x00000000 | ALU_Result_E = 0x55556666 | RD_Addr_E = 18
+[MEM Stage] ALU_Result_M = 0x00000000 | RD_Addr_M =  0
+[WB Stage]  Write_Data_W = 0x55556666 | RD_Addr_W = 17 | RegWrite_W = 1
+[HAZARD]    Stall_PC = 0 | Stall_IF_ID = 0 | Flush_ID_E = 0
+[FORWARD]   Fwd_RS1_E = 01 | Fwd_RS2_E = 00 | Fwd_Decode_D = 01
+==========================================================================
+   MÔ PHỎNG HOÀN THÀNH CHUỖI KIỂM THỬ HAZARD & PIPELINE
+==========================================================================
+$finish called at time : 525 ns : File "C:/RISCV_PRACTICE/project_2/project_2.srcs/sim_1/new/CPU_Top_tb.v" Line 36

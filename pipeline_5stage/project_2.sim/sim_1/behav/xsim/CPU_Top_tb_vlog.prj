@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "D:/VIVADO/2025.2/Vivado/data/rsb/busdef" \
+"../../../../project_2.srcs/sources_1/new/CPU_Top.v" \
+"../../../../project_2.srcs/sources_1/new/EX_stage.v" \
+"../../../../project_2.srcs/sources_1/new/Hazard_Unit.v" \
+"../../../../project_2.srcs/sources_1/new/ID_stage.v" \
+"../../../../project_2.srcs/sources_1/new/IF_ID.v" \
+"../../../../project_2.srcs/sources_1/new/IF_stage.v" \
+"../../../../project_2.srcs/sources_1/new/MEM_stage.v" \
+"../../../../project_2.srcs/sources_1/new/Reg_File.v" \
+"../../../../project_2.srcs/sources_1/new/WB_stage.v" \
+"../../../../project_2.srcs/sources_1/new/pipe_reg_EX_MEM.v" \
+"../../../../project_2.srcs/sources_1/new/pipe_reg_ID_EX.v" \
+"../../../../project_2.srcs/sources_1/new/pipe_reg_MEM_WB.v" \
+"../../../../project_2.srcs/sim_1/new/CPU_Top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
